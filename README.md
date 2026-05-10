@@ -1,202 +1,8 @@
 <div align="center">
-  <img src="client/src/assets/hero.png" alt="FinFlow AI logo" width="180" />
-  <h1>FinFlow AI</h1>
-  <p><strong>Enterprise AI receivables workspace</strong></p>
-</div>
 
-FinFlow AI is a polished AI finance SaaS prototype for receivables operations. It is built to feel like a real enterprise product: invoices persist after refresh, AI-generated emails stay in the vault, audit events are searchable, and legal escalation is visibly blocked when invoices cross the recovery threshold.
+<img src="client/src/assets/hero.png" alt="FinFlow AI Logo" width="180"/>
 
-## Project Overview
-
-The application demonstrates an end-to-end finance workflow:
-
-- CSV invoice ingestion
-- AI follow-up email generation
-- Legal escalation controls
-- Audit trail monitoring
-- Analytics and risk visibility
-- Persistent workspace state
-- Downloadable sample data for demos and grading
-
-The UI keeps the existing clean enterprise direction. The final pass focused on making the product feel complete, stateful, and submission-ready rather than redesigning the interface from scratch.
-
-## Key Features
-
-- Persistent invoices, generated emails, audit logs, and notifications via browser storage
-- Realistic seeded workspace with 10 invoices across multiple overdue stages
-- Dedicated legal review queue for invoices over 30 days overdue
-- AI email workspace with preview modal, copy actions, export, and locked legal generation
-- Live search across invoices, clients, emails, and audit logs
-- Monitoring-style audit trail with search, filters, timeline feed, and CSV export
-- Animated Recharts-based analytics derived directly from invoice data
-- Security page covering dry-run mode, prompt injection mitigation, PII handling, and API key isolation
-- Downloadable sample CSV for fast testing and assignment review
-
-## Architecture
-
-```mermaid
-flowchart LR
-  A[CSV Upload] --> B[Validation Engine]
-  B --> C[Tone + Escalation Logic]
-  C --> D[OpenRouter AI]
-  D --> E[Generated Emails]
-  E --> F[Audit Logs]
-  F --> G[Analytics Dashboard]
-  B --> F
-  B --> G
-  C --> H[Legal Review Queue]
-```
-
-### Workflow Notes
-
-- Uploads are normalized into the same invoice model as the seed data.
-- Legal escalation is blocked at the UI level when days overdue exceed 30.
-- AI email output is stored locally so the workspace survives refresh.
-- Audit logs and notifications are derived from persisted local state and remain visible after reload.
-- Analytics charts are driven from invoice data, so charts stay populated even without a remote fetch.
-
-## AI Workflow
-
-1. A finance operator uploads a CSV or starts from the seeded demo data.
-2. The upload is normalized into overdue stages and escalation metadata.
-3. The email workspace routes eligible invoices to OpenRouter through the backend.
-4. Legal invoices are blocked from generation and routed to the review queue.
-5. Generated payloads are added to the email vault and persisted locally.
-6. Each action is written to the audit trail for monitoring and export.
-
-## Technical Stack & Decision Log
-
-### Frontend
-
-- React 19
-- Vite 8
-- Tailwind CSS 4
-- Framer Motion
-- Recharts
-- React Router
-- React Icons
-- Axios
-
-### Backend
-
-- Node.js / Express
-- Multer
-- csv-parser
-- dotenv
-- Axios
-- OpenRouter API
-
-### Design Decisions
-
-- Local storage persistence was chosen for the final prototype to keep the workspace stateful without adding infrastructure.
-- The UI was kept on the existing modern enterprise direction instead of another redesign.
-- Seeded content was expanded so the app opens with believable financial data immediately.
-- The AI model is routed through the backend to keep API credentials off the client.
-- Dry-run mode is always visible so the prototype remains safe and honest about email behavior.
-
-## Persistence System
-
-Persistent state includes:
-
-- uploaded invoices
-- generated emails
-- audit logs
-- legal review queue visibility
-- notifications derived from audit activity
-- dashboard metrics derived from the persisted workspace
-
-The app stores this state in `localStorage`, which means refreshes do not clear the workspace. The user can also reset the workspace from the profile menu to restore the seeded demo state.
-
-## Security & Compliance
-
-The final update includes a dedicated security posture for the assignment:
-
-- API keys stay on the server and are never sent to the browser
-- Dry-run mode is visible throughout the app
-- Prompt injection risk is reduced by controlled prompt assembly
-- PII exposure is reduced by keeping data within the demo workspace and audit trail
-- Legal escalation is blocked for invoices above the threshold
-- Audit events are persisted locally and exportable for review
-- Security, governance, and compliance messaging are centralized on the security page
-
-## Sample CSV Download
-
-Use the `Download sample CSV` action on the upload page to export a realistic invoice dataset containing:
-
-- `invoice_no`
-- `client_name`
-- `amount`
-- `due_date`
-- `email`
-- `days_overdue`
-
-This makes the demo easy to exercise without needing to build a file manually.
-
-## Folder Structure
-
-```text
-FinFlow AI/
-├── client/
-│   ├── public/
-│   │   └── favicon.svg
-│   └── src/
-│       ├── components/
-│       ├── data/
-│       ├── layouts/
-│       ├── pages/
-│       ├── services/
-│       ├── utils/
-│       ├── App.jsx
-│       └── index.css
-├── server/
-│   ├── routes/
-│   ├── services/
-│   ├── middleware/
-│   ├── uploads/
-│   └── server.js
-├── sample.csv
-└── sample-output/
-```
-
-## Sample Outputs
-
-The submission bundle includes a `sample-output/` directory for demo artifacts such as:
-
-- `generated-emails.pdf`
-- `audit-log.csv`
-- dashboard screenshot assets
-
-These artifacts mirror the finished UI and are meant to support assignment review alongside the live app.
-
-## Frontend Workspace
-
-The client app lives in `client/` and contains the full browser experience:
-
-- `src/App.jsx` handles authentication, workspace persistence, and routing.
-- `src/layouts/MainLayout.jsx` provides the shell, top bar, notifications, and profile menu.
-- `src/pages/DashboardPage.jsx` surfaces the operational summary.
-- `src/pages/UploadPage.jsx` handles CSV ingestion and workspace resets.
-- `src/pages/EmailsPage.jsx` manages AI email generation, legal holds, and exports.
-- `src/pages/AnalyticsPage.jsx` renders data-driven financial pattern analysis.
-- `src/pages/AuditPage.jsx` exposes the searchable compliance timeline.
-- `src/pages/SecurityPage.jsx` explains dry-run safety, prompt control, and API isolation.
-
-The branded logo used in the interface is shared in the client bundle and is reused at the top of this document.
-
-## Sample Output Bundle
-
-The `sample-output/` directory contains submission artifacts packaged from the finished prototype:
-
-- `generated-emails.pdf` - sample PDF export of generated follow-up emails
-- `audit-log.csv` - exported audit trail sample
-- `dashboard-home.svg` - dashboard screenshot-style artifact
-- `dashboard-analytics.svg` - analytics screenshot-style artifact
-
-The visuals are SVG-based submission assets so the bundle remains lightweight and easy to review in the workspace.
-
-<div align="center">
-
-# ✨ FinFlow AI — Platform Showcase
+# ✨ FinFlow AI
 
 ### Intelligent Finance Workflow Automation Platform
 
@@ -209,21 +15,215 @@ AI-powered payment recovery, escalation management, analytics intelligence, and 
 <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js&logoColor=white" />
 <img src="https://img.shields.io/badge/TailwindCSS-UI-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white" />
 
+<br/>
+
+![GitHub stars](https://img.shields.io/github/stars/ritesh-pandey001/FinFlow-AI?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/ritesh-pandey001/FinFlow-AI?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/ritesh-pandey001/FinFlow-AI?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
 </div>
 
 ---
 
-# 📊 Executive Dashboard
+# 📌 Project Overview
 
-A centralized AI-powered finance command center delivering:
+FinFlow AI is a modern AI-powered finance automation platform designed to streamline overdue payment recovery workflows using intelligent escalation systems and AI-generated finance communication.
 
-✔ Real-time invoice analytics
-✔ Escalation monitoring
-✔ Payment recovery intelligence
-✔ Operational workflow visibility
-✔ High-risk account tracking
+The platform simulates a production-inspired enterprise receivables workspace featuring:
 
-<br/>
+* CSV invoice ingestion
+* AI-powered follow-up email generation
+* Escalation-aware finance workflows
+* Legal review queue management
+* Analytics dashboards
+* Persistent workspace state
+* Audit trail monitoring
+* Security and compliance visibility
+
+The project was built as an AI internship evaluation prototype with a focus on:
+
+* enterprise-grade UI/UX
+* realistic workflow automation
+* AI integration
+* finance operations visibility
+* recruiter-ready presentation quality
+
+---
+
+# ✨ Platform Highlights
+
+| Feature                  | Description                                                |
+| ------------------------ | ---------------------------------------------------------- |
+| 🤖 AI Email Generation   | Dynamic finance follow-up generation using OpenRouter AI   |
+| 📈 Analytics Dashboard   | Real-time overdue tracking and financial intelligence      |
+| ⚠ Legal Escalation Queue | Automatic blocking for invoices above escalation threshold |
+| 🧾 Audit Trail           | Searchable finance monitoring and activity timeline        |
+| 💾 Persistent Workspace  | Local state persistence after browser refresh              |
+| 🔒 Security Controls     | Dry-run mode and prompt safety protections                 |
+| 📂 CSV Ingestion         | Upload and process realistic finance invoice datasets      |
+| 📊 Operational Insights  | AI-powered analytics and escalation intelligence           |
+
+---
+
+# 🏗 Architecture
+
+```mermaid
+flowchart LR
+  A[CSV Upload] --> B[Validation Engine]
+  B --> C[Tone Escalation Logic]
+  C --> D[OpenRouter AI]
+  D --> E[Generated Emails]
+  E --> F[Audit Logs]
+  F --> G[Analytics Dashboard]
+  C --> H[Legal Review Queue]
+```
+
+---
+
+# ⚙ AI Workflow
+
+1. Finance operator uploads invoice CSV records
+2. Invoice data is normalized and validated
+3. Escalation engine classifies overdue stages
+4. OpenRouter AI generates contextual follow-up emails
+5. Legal escalation queue blocks high-risk invoices
+6. Audit events are logged automatically
+7. Analytics dashboards update dynamically
+8. Workspace state persists after refresh
+
+---
+
+# 🧠 Tone Escalation Engine
+
+| Overdue Days | Communication Tone | Workflow Action                     |
+| ------------ | ------------------ | ----------------------------------- |
+| 1–7 Days     | Warm & Friendly    | Gentle payment reminder             |
+| 8–14 Days    | Polite but Firm    | Professional follow-up              |
+| 15–21 Days   | Formal & Serious   | Escalated recovery communication    |
+| 22–30 Days   | Stern & Urgent     | High-priority payment request       |
+| 30+ Days     | Legal Escalation   | AI generation blocked and escalated |
+
+---
+
+# 🛠 Technical Stack & Decision Log
+
+## Frontend
+
+* React.js
+* Vite
+* Tailwind CSS
+* Framer Motion
+* Recharts
+* React Router
+* React Icons
+* Axios
+
+## Backend
+
+* Node.js
+* Express.js
+* Multer
+* csv-parser
+* dotenv
+* Axios
+
+## AI Integration
+
+* OpenRouter API
+* Gemini 2.0 Flash
+
+## Key Technical Decisions
+
+* Local persistence was selected to keep the prototype stateful without infrastructure overhead
+* AI generation is routed through backend APIs to protect API credentials
+* Dry-run mode is permanently enabled for safe demonstration
+* Realistic seed data is used to make the workspace feel production-inspired immediately
+* The UI was refined into a modern enterprise SaaS direction instead of overcomplicated redesigns
+
+---
+
+# 🔒 Security & Compliance
+
+FinFlow AI includes multiple security and governance considerations:
+
+| Risk                        | Mitigation                    |
+| --------------------------- | ----------------------------- |
+| Prompt Injection            | Controlled structured prompts |
+| API Key Exposure            | `.env` isolation              |
+| Hallucination Risk          | Context-aware prompt design   |
+| Unauthorized Email Delivery | Dry-run mode enabled          |
+| PII Exposure                | Local-only persistence        |
+| Escalation Abuse            | Legal queue enforcement       |
+
+Additional safeguards:
+
+* No SMTP integration enabled
+* No external database storage
+* Audit trail persistence
+* Controlled AI workflow boundaries
+
+---
+
+# 💾 Persistent Workspace System
+
+The application preserves workspace state using browser persistence.
+
+Persisted data includes:
+
+* uploaded invoices
+* generated emails
+* analytics
+* audit logs
+* notifications
+* escalation queue
+* dashboard metrics
+
+Refreshing the browser does NOT clear the workspace.
+
+---
+
+# 📂 Folder Structure
+
+```text
+FinFlow-AI/
+├── client/
+│   ├── public/
+│   └── src/
+│       ├── assets/
+│       ├── components/
+│       ├── layouts/
+│       ├── pages/
+│       ├── services/
+│       ├── utils/
+│       └── App.jsx
+│
+├── server/
+│   ├── routes/
+│   ├── services/
+│   ├── middleware/
+│   ├── uploads/
+│   └── server.js
+│
+├── sample-data/
+├── sample-output/
+├── README.md
+└── .env.example
+```
+
+---
+
+# 📊 Platform Showcase
+
+# 📈 Executive Dashboard
+
+A centralized AI-powered finance command center providing:
+
+* real-time invoice analytics
+* escalation monitoring
+* payment recovery visibility
+* workflow intelligence
+* operational tracking
 
 <div align="center">
   <img width="95%" alt="Executive Dashboard" src="https://github.com/user-attachments/assets/23544f52-e694-487b-b316-23c592f6916c" />
@@ -233,15 +233,13 @@ A centralized AI-powered finance command center delivering:
 
 # 📂 Invoice Upload Workspace
 
-A modern invoice ingestion pipeline supporting:
+A modern CSV ingestion workspace supporting:
 
-✔ CSV-based finance onboarding
-✔ Dynamic invoice validation
-✔ Automated workflow initialization
-✔ Real-time processing visibility
-✔ Smart finance data handling
-
-<br/>
+* invoice validation
+* automated parsing
+* finance workflow onboarding
+* upload analytics
+* dynamic processing
 
 <div align="center">
   <img width="95%" alt="Invoice Upload Workspace" src="https://github.com/user-attachments/assets/fd8e7ef1-d3a5-41d0-b195-afc10cb14866" />
@@ -251,17 +249,14 @@ A modern invoice ingestion pipeline supporting:
 
 # 🤖 AI Email Generation Engine
 
-An intelligent communication automation system powered by OpenRouter + Gemini AI.
+An AI-powered communication workspace generating:
 
-### Features:
+* personalized reminders
+* escalation-aware emails
+* tone-adaptive communication
+* legal escalation notices
 
-✔ Personalized payment reminders
-✔ Dynamic tone escalation
-✔ Professional finance communication
-✔ Legal escalation handling
-✔ AI-powered workflow automation
-
-<br/>
+Powered using OpenRouter + Gemini AI.
 
 <div align="center">
   <img width="95%" alt="AI Email Generation Engine" src="https://github.com/user-attachments/assets/fdfe9b09-386e-41df-9d9b-1b703d4e914b" />
@@ -269,17 +264,15 @@ An intelligent communication automation system powered by OpenRouter + Gemini AI
 
 ---
 
-# 📈 Analytics & Financial Intelligence
+# 📊 Analytics & Financial Intelligence
 
-Interactive analytics dashboards providing:
+Interactive analytics dashboards provide:
 
-✔ Overdue distribution insights
-✔ Escalation stage analysis
-✔ Pending exposure visualization
-✔ Payment recovery intelligence
-✔ Operational finance metrics
-
-<br/>
+* overdue distribution analysis
+* exposure tracking
+* escalation intelligence
+* payment workflow metrics
+* finance operational insights
 
 <div align="center">
   <img width="95%" alt="Analytics Dashboard" src="https://github.com/user-attachments/assets/fd25a7d5-efaf-491a-952b-294f230c1e38" />
@@ -289,15 +282,13 @@ Interactive analytics dashboards providing:
 
 # 🔒 Security & Audit Compliance
 
-Enterprise-inspired compliance architecture featuring:
+Enterprise-inspired audit visibility featuring:
 
-✔ Secure dry-run processing
-✔ Audit trail logging
-✔ Escalation visibility
-✔ AI governance tracking
-✔ Local persistence security
-
-<br/>
+* dry-run protection
+* audit trail persistence
+* escalation governance
+* AI monitoring visibility
+* compliance-focused workflows
 
 <div align="center">
   <img width="95%" alt="Security & Audit Compliance" src="https://github.com/user-attachments/assets/21c6d066-cf0d-4182-a957-64342b8357e3" />
@@ -305,59 +296,98 @@ Enterprise-inspired compliance architecture featuring:
 
 ---
 
-# 🚀 Built for Modern Finance Operations
+# 🎬 Demo Workflow
 
-FinFlow AI combines:
-
-* Intelligent AI automation
-* Enterprise SaaS dashboard architecture
-* Escalation-aware communication workflows
-* Operational finance analytics
-* Secure audit visibility
-* Modern responsive UI/UX
-* AI-powered workflow orchestration
-
-into a unified next-generation finance automation platform.
+1. Upload invoice CSV records
+2. AI classifies overdue stages
+3. Escalation engine determines communication tone
+4. OpenRouter AI generates finance emails
+5. Legal escalation queue blocks high-risk accounts
+6. Audit logs capture workflow activity
+7. Analytics update dynamically
+8. Workspace state persists after refresh
 
 ---
 
-<div align="center">
+# ✅ Assignment Requirement Coverage
 
-### 💡 AI-Powered • Enterprise-Inspired • Finance Automation SaaS
+| Requirement                       | Status        |
+| --------------------------------- | ------------- |
+| CSV Invoice Ingestion             | ✅ Implemented |
+| AI Email Generation               | ✅ Implemented |
+| Tone Escalation Logic             | ✅ Implemented |
+| Audit Trail Logging               | ✅ Implemented |
+| Legal Escalation Queue            | ✅ Implemented |
+| Dry-Run Safety Mode               | ✅ Implemented |
+| Security Mitigation Documentation | ✅ Implemented |
+| Architecture Diagram              | ✅ Implemented |
+| Persistent Workspace State        | ✅ Implemented |
+| Analytics Dashboard               | ✅ Implemented |
 
-</div>
+---
 
+# 📦 Sample Output Bundle
 
-## Setup
+The project includes:
 
-### Requirements
+* generated email examples
+* audit log exports
+* sample CSV datasets
+* dashboard screenshots
+* analytics artifacts
 
-- Node.js 18 or newer
-- npm
-- OpenRouter API key for AI generation
+Located inside:
 
-### Backend
+```text
+sample-output/
+```
+
+---
+
+# 🌐 Deployment Ready
+
+The architecture supports deployment on:
+
+* Vercel
+* Render
+* Railway
+* Dockerized environments
+* SaaS hosting platforms
+
+---
+
+# ⚡ Setup Instructions
+
+## Backend Setup
 
 ```bash
 cd server
 npm install
 ```
 
-Create `server/.env`:
+Create:
+
+```env
+server/.env
+```
+
+Add:
 
 ```env
 PORT=5000
-OPENROUTER_API_KEY=your_openrouter_key_here
-OPENROUTER_MODEL=~google/gemini-flash-latest
+OPENROUTER_API_KEY=your_openrouter_api_key
+OPENROUTER_MODEL=google/gemini-2.0-flash-exp:free
 ```
 
-Start the backend:
+Run backend:
 
 ```bash
 npm start
 ```
 
-### Frontend
+---
+
+## Frontend Setup
 
 ```bash
 cd client
@@ -365,36 +395,53 @@ npm install
 npm run dev
 ```
 
-Open the app at `http://localhost:5173`.
+Open:
 
-## Default Demo State
-
-If no uploaded CSV exists, FinFlow AI preloads a realistic finance workspace with:
-
-- 10 invoice records
-- multiple overdue stages
-- generated email examples
-- audit logs and escalation history
-- analytics already populated
-
-This ensures the prototype feels alive immediately, even before the first upload.
-
-## Future Scope
-
-- Multi-user workspaces
-- Role-based access control
-- Server-backed persistence
-- Notification center with live subscriptions
-- PDF export for board reporting
-- Command palette for faster operator workflows
-
-## Notes
-
-- The app is intended as a polished assignment prototype, not a live receivables system.
-- The backend AI model is configured in `server/.env`.
-- The workspace reset action restores the seeded demo state from the profile menu.
-- Dry-run mode is intentional and should remain visible in the UI.
+```text
+http://localhost:5173
+```
 
 ---
 
-FinFlow AI is now positioned as a recruiter-ready submission: stateful, realistic, and complete enough to present as a production-inspired finance SaaS prototype.
+# 📁 Sample CSV Format
+
+```csv
+invoice_no,client_name,amount,due_date,email,days_overdue
+INV-001,Rajesh Sharma,45000,2026-04-25,rajesh@company.in,12
+```
+
+---
+
+# 🚀 Future Enhancements
+
+* SMTP email delivery integration
+* CRM integrations
+* Multi-user workspaces
+* Role-based access control
+* AI payment forecasting
+* Predictive risk scoring
+* Multi-agent orchestration
+* Cloud-native persistence
+* Real-time notification center
+
+---
+
+# 📝 Notes
+
+* This project is designed as a production-inspired AI finance prototype
+* Dry-run mode intentionally prevents real email delivery
+* OpenRouter API integration powers AI generation workflows
+* Seeded invoice data allows instant demo readiness
+* Workspace reset restores the default demo environment
+
+---
+
+<div align="center">
+
+# 💡 FinFlow AI
+
+### AI-Powered • Enterprise-Inspired • Finance Automation SaaS
+
+Built for AI Internship Evaluation • Modern SaaS Prototype • Intelligent Workflow Automation
+
+</div>

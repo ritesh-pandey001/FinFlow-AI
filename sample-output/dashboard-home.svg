@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="900" fill="url(#bg)"/>
+  <rect x="48" y="48" width="240" height="804" rx="28" fill="#0b1120" stroke="#1f2a44"/>
+  <rect x="320" y="48" width="1072" height="82" rx="22" fill="#0b1120" stroke="#1f2a44"/>
+  <rect x="320" y="150" width="660" height="260" rx="28" fill="#0f172a" stroke="#24304f"/>
+  <rect x="1000" y="150" width="392" height="260" rx="28" fill="#0f172a" stroke="#24304f"/>
+  <rect x="1000" y="430" width="392" height="410" rx="28" fill="#0f172a" stroke="#24304f"/>
+  <rect x="320" y="430" width="660" height="310" rx="28" fill="#0f172a" stroke="#24304f"/>
+  <rect x="320" y="760" width="660" height="80" rx="28" fill="#0f172a" stroke="#24304f"/>
+  <text x="82" y="88" fill="#e5e7eb" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">FinFlow AI</text>
+  <text x="350" y="92" fill="#e5e7eb" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Enterprise AI receivables cockpit</text>
+  <text x="350" y="190" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">AI insights</text>
+  <text x="350" y="230" fill="#e5e7eb" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">₹6,58,350 pending exposure</text>
+  <text x="1020" y="190" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">Recent events</text>
+  <text x="1020" y="230" fill="#e5e7eb" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">CSV upload, AI generation, legal queue</text>
+  <text x="350" y="480" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">Pipeline health</text>
+  <text x="350" y="520" fill="#e5e7eb" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Warm, Firm, Formal, Urgent, Legal</text>
+  <text x="350" y="810" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="16">Responsive enterprise dashboard with persisted state</text>
+</svg>

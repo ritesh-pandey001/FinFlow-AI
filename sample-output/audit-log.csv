@@ -1,0 +1,11 @@
+timestamp,action,client_name,invoice_no,tone,status,source,eventType,escalation,details
+"2026-05-09T09:15:00.000Z","CSV_UPLOAD","Northstar Finance","INV-2026-001","Warm & Friendly","success","upload","upload","friendly","Imported 10 seed invoices into the workspace"
+"2026-05-09T09:24:00.000Z","EMAIL_GENERATED","Helios Systems","INV-2026-002","Polite but Firm","success","ai","email_generate","polite","Generated a follow-up email for the 15-day overdue invoice"
+"2026-05-09T10:05:00.000Z","EMAIL_GENERATED","Vertex Commerce","INV-2026-003","Formal & Serious","success","ai","email_generate","formal","Generated formal escalation copy for management review"
+"2026-05-09T10:25:00.000Z","EMAIL_GENERATED","Meridian Health","INV-2026-007","Urgent Reminder","success","ai","email_generate","urgent","Urgent follow-up created for a 24-day overdue account"
+"2026-05-09T10:35:00.000Z","AUDIT_EXPORT","-","-","-","success","audit","export","general","Exported audit snapshot for compliance review"
+"2026-05-09T10:55:00.000Z","LEGAL_ESCALATION","Summit Retail Group","INV-2026-004","Legal Escalation","warning","workflow","legal_queue","legal","Invoice crossed the escalation threshold and is flagged for legal review"
+"2026-05-09T11:08:00.000Z","LEGAL_ESCALATION","Nova Telecom","INV-2026-009","Legal Escalation","warning","workflow","legal_queue","legal","Account queued for legal review with a dry-run email block enabled"
+"2026-05-09T11:15:00.000Z","UPLOAD_RECONCILED","Aster Logistics","INV-2026-006","Warm & Friendly","success","upload","validation","friendly","Uploaded record matched the expected template and passed validation"
+"2026-05-09T11:18:00.000Z","EMAIL_BLOCKED_LEGAL","Nova Telecom","INV-2026-009","Legal Escalation","warning","ai","blocked","legal","AI generation blocked because the account is in the legal queue"
+"2026-05-09T11:30:00.000Z","DASHBOARD_REFRESH","Workspace","-","-","success","ui","refresh","general","Dashboard metrics and notifications refreshed from persisted local state"

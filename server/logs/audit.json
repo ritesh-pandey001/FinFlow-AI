@@ -1,0 +1,502 @@
+[
+  {
+    "id": "99967451-5b12-41fb-be85-b062350f2ddd",
+    "timestamp": "2026-05-10T14:30:02.602Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-001",
+    "client_name": "Apex Technologies Ltd",
+    "tone": "Warm & Friendly",
+    "status": "success",
+    "details": "AI email generated with Warm & Friendly tone"
+  },
+  {
+    "id": "9744bc23-8568-4da3-86e7-8f0d3b74fef0",
+    "timestamp": "2026-05-10T14:29:22.742Z",
+    "action": "CSV_UPLOAD",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Uploaded 0 invoices from bad-upload.csv"
+  },
+  {
+    "id": "bd9dbfae-57a1-427b-babd-ec1cfbea1dbf",
+    "timestamp": "2026-05-10T14:29:20.306Z",
+    "action": "CSV_UPLOAD",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Uploaded 10 invoices from sample_invoices.csv"
+  },
+  {
+    "id": "be74ccad-111f-4048-aad7-7bd98dfa22c9",
+    "timestamp": "2026-05-10T14:29:07.185Z",
+    "action": "CSV_UPLOAD",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Uploaded 0 invoices from finflow_indian_sample_data.csv"
+  },
+  {
+    "id": "892da7fd-08c7-482e-a66e-9a55cc63db1b",
+    "timestamp": "2026-05-10T14:27:43.852Z",
+    "action": "CSV_UPLOAD",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Uploaded 0 invoices from finflow_indian_sample_data.csv"
+  },
+  {
+    "id": "9e7324a8-5989-429b-8794-6039e398ca4c",
+    "timestamp": "2026-05-10T14:27:11.787Z",
+    "action": "CSV_UPLOAD",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Uploaded 0 invoices from finflow_indian_sample_data.csv"
+  },
+  {
+    "id": "05502840-9902-4473-9728-ce6d2e33f299",
+    "timestamp": "2026-05-10T14:26:45.792Z",
+    "action": "CSV_UPLOAD",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Uploaded 12 invoices from sample.csv"
+  },
+  {
+    "id": "d1d0ae8f-5660-4da7-8dde-94847c88f0c1",
+    "timestamp": "2026-05-10T14:25:59.960Z",
+    "action": "CSV_UPLOAD",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Uploaded 12 invoices from sample.csv"
+  },
+  {
+    "id": "039f5397-143d-4c4c-8b94-8c21c3b085a1",
+    "timestamp": "2026-05-10T14:24:39.820Z",
+    "action": "CSV_UPLOAD",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Uploaded 0 invoices from finflow_indian_sample_data.csv"
+  },
+  {
+    "id": "610fa037-99c9-4873-8744-4b4749ba229a",
+    "timestamp": "2026-05-10T14:20:22.577Z",
+    "action": "CSV_UPLOAD",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Uploaded 0 invoices from finflow_indian_sample_data.csv"
+  },
+  {
+    "id": "6332b18b-16e8-415e-bbb2-3dac06b85625",
+    "timestamp": "2026-05-10T13:31:51.576Z",
+    "action": "INSIGHTS_GENERATED",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Generated 5 AI insights for 5 invoices"
+  },
+  {
+    "id": "77e2b204-6340-4d79-9e2e-97d24bab67f5",
+    "timestamp": "2026-05-10T13:31:51.346Z",
+    "action": "INSIGHTS_GENERATED",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Generated 5 AI insights for 5 invoices"
+  },
+  {
+    "id": "a423e784-bd49-4493-a2d5-f99a15597a4e",
+    "timestamp": "2026-05-10T13:25:56.038Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-008",
+    "client_name": "Sterling Enterprises",
+    "tone": "Formal & Serious",
+    "status": "success",
+    "details": "AI email generated with Formal & Serious tone"
+  },
+  {
+    "id": "32cd7dc9-ee87-4472-806a-d90f1298fc3d",
+    "timestamp": "2026-05-10T13:25:52.580Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-007",
+    "client_name": "Momentum Manufacturing",
+    "tone": "Stern & Urgent",
+    "status": "success",
+    "details": "AI email generated with Stern & Urgent tone"
+  },
+  {
+    "id": "0345afe0-b212-4c96-a529-86bfb1b63a4c",
+    "timestamp": "2026-05-10T13:25:48.614Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-006",
+    "client_name": "Vertex Software Solutions",
+    "tone": "Warm & Friendly",
+    "status": "success",
+    "details": "AI email generated with Warm & Friendly tone"
+  },
+  {
+    "id": "982cc291-fb9f-4f6f-a96e-1720e40323a9",
+    "timestamp": "2026-05-10T13:25:44.697Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-004",
+    "client_name": "Pinnacle Healthcare",
+    "tone": "Stern & Urgent",
+    "status": "success",
+    "details": "AI email generated with Stern & Urgent tone"
+  },
+  {
+    "id": "35183b36-7c94-4bff-9799-98c7702aecfd",
+    "timestamp": "2026-05-10T13:25:40.884Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-003",
+    "client_name": "Skyline Builders Pvt Ltd",
+    "tone": "Formal & Serious",
+    "status": "success",
+    "details": "AI email generated with Formal & Serious tone"
+  },
+  {
+    "id": "7b29e808-a5ce-4339-b4fa-282f1c690690",
+    "timestamp": "2026-05-10T13:25:36.556Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-002",
+    "client_name": "Nexus Retail Group",
+    "tone": "Polite but Firm",
+    "status": "success",
+    "details": "AI email generated with Polite but Firm tone"
+  },
+  {
+    "id": "dc2aa89d-3482-4bca-bb4e-63c48bdbb1ec",
+    "timestamp": "2026-05-10T13:25:33.488Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-001",
+    "client_name": "Apex Technologies Ltd",
+    "tone": "Warm & Friendly",
+    "status": "success",
+    "details": "AI email generated with Warm & Friendly tone"
+  },
+  {
+    "id": "f7a1bdf1-8e59-4797-9a5c-3513467690e0",
+    "timestamp": "2026-05-10T13:23:56.360Z",
+    "action": "CSV_UPLOAD",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Uploaded 10 invoices from sample_invoices.csv"
+  },
+  {
+    "id": "a8376999-3bb5-4774-bd60-0451f4303cbc",
+    "timestamp": "2026-05-10T13:22:42.882Z",
+    "action": "CSV_UPLOAD",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Uploaded 10 invoices from sample_invoices.csv"
+  },
+  {
+    "id": "c044a7a6-ac74-49a1-97a9-4264fec2a553",
+    "timestamp": "2026-05-10T12:30:22.152Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-001",
+    "client_name": "Apex Technologies Ltd",
+    "tone": "Warm & Friendly",
+    "status": "success",
+    "details": "AI email generated with Warm & Friendly tone"
+  },
+  {
+    "id": "ca2dcf20-b9d6-462d-b2bd-aa07450ff8c9",
+    "timestamp": "2026-05-10T12:29:18.397Z",
+    "action": "CSV_UPLOAD",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Uploaded 10 invoices from sample_invoices.csv"
+  },
+  {
+    "id": "d752d139-2ec1-40a0-8635-75bfbb5bfaf6",
+    "timestamp": "2026-05-10T09:04:13.447Z",
+    "action": "INSIGHTS_GENERATED",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Generated 5 AI insights for 10 invoices"
+  },
+  {
+    "id": "05bb2515-5f79-449a-8a69-846ee410720f",
+    "timestamp": "2026-05-10T09:04:13.426Z",
+    "action": "INSIGHTS_GENERATED",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Generated 5 AI insights for 10 invoices"
+  },
+  {
+    "id": "81c4feb2-5a91-428e-919d-f06295439bc6",
+    "timestamp": "2026-05-10T09:02:25.398Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-002",
+    "client_name": "Nexus Retail Group",
+    "tone": "Polite but Firm",
+    "status": "success",
+    "details": "AI email generated with Polite but Firm tone"
+  },
+  {
+    "id": "92d1dbdb-b0ba-4a6f-8628-2d5fa4777b9b",
+    "timestamp": "2026-05-10T09:01:43.952Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-003",
+    "client_name": "Skyline Builders Pvt Ltd",
+    "tone": "Formal & Serious",
+    "status": "success",
+    "details": "AI email generated with Formal & Serious tone"
+  },
+  {
+    "id": "c8f57f34-dae6-46d0-b174-579bdc68f768",
+    "timestamp": "2026-05-10T09:01:19.935Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-001",
+    "client_name": "Apex Technologies Ltd",
+    "tone": "Warm & Friendly",
+    "status": "success",
+    "details": "AI email generated with Warm & Friendly tone"
+  },
+  {
+    "id": "6af38139-1ace-473d-a62d-952ec83b2edb",
+    "timestamp": "2026-05-10T09:01:07.867Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-TEST-001",
+    "client_name": "Acme Corp",
+    "tone": "Polite but Firm",
+    "status": "success",
+    "details": "AI email generated with Polite but Firm tone"
+  },
+  {
+    "id": "6420d01d-a8d2-43c7-9e8f-4db810b50312",
+    "timestamp": "2026-05-10T09:00:37.888Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-TEST-001",
+    "client_name": "Acme Corp",
+    "tone": "Polite but Firm",
+    "status": "failed",
+    "details": "MODEL is not defined"
+  },
+  {
+    "id": "fc9afc74-4be7-4345-9dbf-f71799b2d5fb",
+    "timestamp": "2026-05-10T08:59:39.186Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-TEST-001",
+    "client_name": "Acme Corp",
+    "tone": "Polite but Firm",
+    "status": "failed",
+    "details": "No endpoints found for google/gemini-2.0-flash-exp:free."
+  },
+  {
+    "id": "2372b538-420a-4e97-bba1-319f5bb8016c",
+    "timestamp": "2026-05-10T08:59:34.601Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-001",
+    "client_name": "Apex Technologies Ltd",
+    "tone": "Warm & Friendly",
+    "status": "failed",
+    "details": "No endpoints found for google/gemini-2.0-flash-exp:free."
+  },
+  {
+    "id": "95393a79-8eec-4baf-9805-b10a38dfce21",
+    "timestamp": "2026-05-10T08:59:28.772Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-008",
+    "client_name": "Sterling Enterprises",
+    "tone": "Formal & Serious",
+    "status": "failed",
+    "details": "No endpoints found for google/gemini-2.0-flash-exp:free."
+  },
+  {
+    "id": "e8335107-9240-4162-bc71-ac56f597035b",
+    "timestamp": "2026-05-10T08:59:28.241Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-007",
+    "client_name": "Momentum Manufacturing",
+    "tone": "Stern & Urgent",
+    "status": "failed",
+    "details": "No endpoints found for google/gemini-2.0-flash-exp:free."
+  },
+  {
+    "id": "9a13ce75-2014-446e-b218-a414ea290e58",
+    "timestamp": "2026-05-10T08:59:27.720Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-006",
+    "client_name": "Vertex Software Solutions",
+    "tone": "Warm & Friendly",
+    "status": "failed",
+    "details": "No endpoints found for google/gemini-2.0-flash-exp:free."
+  },
+  {
+    "id": "127acef8-9008-4754-a3ab-b5e72b9e4d6b",
+    "timestamp": "2026-05-10T08:59:27.195Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-004",
+    "client_name": "Pinnacle Healthcare",
+    "tone": "Stern & Urgent",
+    "status": "failed",
+    "details": "No endpoints found for google/gemini-2.0-flash-exp:free."
+  },
+  {
+    "id": "9d3e2b9f-a770-4155-b182-da2c935703c0",
+    "timestamp": "2026-05-10T08:59:26.670Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-003",
+    "client_name": "Skyline Builders Pvt Ltd",
+    "tone": "Formal & Serious",
+    "status": "failed",
+    "details": "No endpoints found for google/gemini-2.0-flash-exp:free."
+  },
+  {
+    "id": "45a93651-5fd2-4416-aa83-1caf2b1069e2",
+    "timestamp": "2026-05-10T08:59:26.153Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-002",
+    "client_name": "Nexus Retail Group",
+    "tone": "Polite but Firm",
+    "status": "failed",
+    "details": "No endpoints found for google/gemini-2.0-flash-exp:free."
+  },
+  {
+    "id": "2e20f245-8d81-4f9e-a03d-461f402e26a1",
+    "timestamp": "2026-05-10T08:59:25.628Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-001",
+    "client_name": "Apex Technologies Ltd",
+    "tone": "Warm & Friendly",
+    "status": "failed",
+    "details": "No endpoints found for google/gemini-2.0-flash-exp:free."
+  },
+  {
+    "id": "cc11c14d-89d2-4024-a597-20b93a54e6a5",
+    "timestamp": "2026-05-10T08:58:49.078Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-TEST-001",
+    "client_name": "Acme Corp",
+    "tone": "Polite but Firm",
+    "status": "failed",
+    "details": "OpenRouter API key not configured. Please set OPENROUTER_API_KEY in .env file."
+  },
+  {
+    "id": "3e8b05dd-a495-4f13-a944-0fb93a393e1c",
+    "timestamp": "2026-05-10T08:58:26.882Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-008",
+    "client_name": "Sterling Enterprises",
+    "tone": "Formal & Serious",
+    "status": "failed",
+    "details": "OpenRouter API key not configured. Please set OPENROUTER_API_KEY in .env file."
+  },
+  {
+    "id": "f0f0ea55-621c-44f1-b238-4ac5447e6ce8",
+    "timestamp": "2026-05-10T08:58:26.379Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-007",
+    "client_name": "Momentum Manufacturing",
+    "tone": "Stern & Urgent",
+    "status": "failed",
+    "details": "OpenRouter API key not configured. Please set OPENROUTER_API_KEY in .env file."
+  },
+  {
+    "id": "e8e91817-2568-4a76-b44d-1bf0542ba86f",
+    "timestamp": "2026-05-10T08:58:25.877Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-006",
+    "client_name": "Vertex Software Solutions",
+    "tone": "Warm & Friendly",
+    "status": "failed",
+    "details": "OpenRouter API key not configured. Please set OPENROUTER_API_KEY in .env file."
+  },
+  {
+    "id": "2d05b3b9-29ae-4c4a-93b4-63f49918aee6",
+    "timestamp": "2026-05-10T08:58:25.374Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-004",
+    "client_name": "Pinnacle Healthcare",
+    "tone": "Stern & Urgent",
+    "status": "failed",
+    "details": "OpenRouter API key not configured. Please set OPENROUTER_API_KEY in .env file."
+  },
+  {
+    "id": "12b044f5-8632-4907-b574-c13c39ee00ac",
+    "timestamp": "2026-05-10T08:58:24.872Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-003",
+    "client_name": "Skyline Builders Pvt Ltd",
+    "tone": "Formal & Serious",
+    "status": "failed",
+    "details": "OpenRouter API key not configured. Please set OPENROUTER_API_KEY in .env file."
+  },
+  {
+    "id": "60ae1843-05c1-4050-9829-fc8d85cfcf26",
+    "timestamp": "2026-05-10T08:58:24.370Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-002",
+    "client_name": "Nexus Retail Group",
+    "tone": "Polite but Firm",
+    "status": "failed",
+    "details": "OpenRouter API key not configured. Please set OPENROUTER_API_KEY in .env file."
+  },
+  {
+    "id": "3299e64e-fc4f-4f11-bfb3-a4c3a03df1ce",
+    "timestamp": "2026-05-10T08:58:23.867Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-001",
+    "client_name": "Apex Technologies Ltd",
+    "tone": "Warm & Friendly",
+    "status": "failed",
+    "details": "OpenRouter API key not configured. Please set OPENROUTER_API_KEY in .env file."
+  },
+  {
+    "id": "a3566ed0-6917-42e0-899c-44aeafe450b9",
+    "timestamp": "2026-05-10T08:56:27.126Z",
+    "action": "EMAIL_GENERATED",
+    "invoice_no": "INV-2024-001",
+    "client_name": "Apex Technologies Ltd",
+    "tone": "Warm & Friendly",
+    "status": "failed",
+    "details": "OpenRouter API key not configured. Please set OPENROUTER_API_KEY in .env file."
+  },
+  {
+    "id": "915ccad7-9bff-4cc3-8e6b-cc2dd9d62e7a",
+    "timestamp": "2026-05-10T08:55:44.209Z",
+    "action": "CSV_UPLOAD",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Uploaded 10 invoices from sample_invoices.csv"
+  },
+  {
+    "id": "259b214d-f7cf-44a4-aafc-178aa132d5c5",
+    "timestamp": "2026-05-10T08:55:17.083Z",
+    "action": "CSV_UPLOAD",
+    "invoice_no": "-",
+    "client_name": "-",
+    "tone": "-",
+    "status": "success",
+    "details": "Uploaded 12 invoices from sample.csv"
+  }
+]

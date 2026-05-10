@@ -1,0 +1,11 @@
+invoice_no,client_name,amount,due_date,email,days_overdue
+INV-2024-001,Apex Technologies Ltd,125000,2024-10-15,accounts@apextech.in,5
+INV-2024-002,Nexus Retail Group,87500,2024-10-08,finance@nexusretail.com,12
+INV-2024-003,Skyline Builders Pvt Ltd,340000,2024-09-30,payments@skylinebuilders.in,20
+INV-2024-004,Pinnacle Healthcare,62000,2024-09-22,billing@pinnaclehc.com,27
+INV-2024-005,Globalink Logistics,195000,2024-09-10,ar@globalinklog.com,38
+INV-2024-006,Vertex Software Solutions,48000,2024-10-18,accounts@vertexsoft.in,3
+INV-2024-007,Momentum Manufacturing,275000,2024-09-28,finance@momentummfg.com,22
+INV-2024-008,Sterling Enterprises,93000,2024-10-05,payments@sterlingent.in,15
+INV-2024-009,ClearPath Consulting,55000,2024-09-15,billing@clearpathco.com,35
+INV-2024-010,Horizon Exports Ltd,420000,2024-09-05,ar@horizonexports.com,45

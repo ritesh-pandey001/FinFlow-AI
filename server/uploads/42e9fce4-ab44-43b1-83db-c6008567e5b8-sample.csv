@@ -1,0 +1,13 @@
+invoice_no,client_name,amount,due_date,email,days_overdue
+INV-2024-001,Acme Corporation,125000,2025-04-15,finance@acmecorp.com,3
+INV-2024-002,TechNova Solutions,89500,2025-04-08,accounts@technova.io,10
+INV-2024-003,Global Traders Ltd,245000,2025-03-28,billing@globaltraders.com,18
+INV-2024-004,Pinnacle Industries,67800,2025-03-20,ar@pinnacle-ind.com,25
+INV-2024-005,Stellar Dynamics,310000,2025-03-01,payments@stellardyn.com,45
+INV-2024-006,Vertex Innovations,54200,2025-04-12,finance@vertexinno.com,5
+INV-2024-007,Quantum Labs,178000,2025-04-01,billing@quantumlabs.co,14
+INV-2024-008,NexGen Solutions,92000,2025-03-15,accounts@nexgen.com,30
+INV-2024-009,Atlas Manufacturing,415000,2025-02-20,finance@atlasmfg.com,55
+INV-2024-010,CoreTech Systems,73500,2025-04-05,payments@coretech.io,12
+INV-2024-011,Horizon Enterprises,198000,2025-03-22,billing@horizonent.com,22
+INV-2024-012,Prism Analytics,46700,2025-04-18,ar@prismanalytics.com,1

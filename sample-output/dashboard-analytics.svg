@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <rect width="1440" height="900" fill="#020617"/>
+  <rect x="48" y="48" width="1344" height="804" rx="28" fill="#0f172a" stroke="#24304f"/>
+  <text x="88" y="110" fill="#e5e7eb" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Analytics snapshot</text>
+  <rect x="88" y="160" width="380" height="220" rx="24" fill="#111827" stroke="#24304f"/>
+  <rect x="490" y="160" width="380" height="220" rx="24" fill="#111827" stroke="#24304f"/>
+  <rect x="892" y="160" width="460" height="220" rx="24" fill="#111827" stroke="#24304f"/>
+  <rect x="88" y="408" width="1264" height="330" rx="24" fill="#111827" stroke="#24304f"/>
+  <text x="118" y="210" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">Overdue distribution</text>
+  <text x="520" y="210" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">AI insights</text>
+  <text x="922" y="210" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">Invoice trends</text>
+  <text x="118" y="470" fill="#e5e7eb" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Legal, Urgent, Formal, Firm, Warm</text>
+  <text x="118" y="520" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">3 accounts require urgent escalation</text>
+  <text x="118" y="558" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">₹245,000 currently in high-risk recovery stage</text>
+  <text x="118" y="596" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="18">AI generation metrics persist after refresh</text>
+</svg>

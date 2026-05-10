@@ -1,0 +1,16 @@
+invoice_no,client_name,company_name,amount_due,due_date,days_overdue,contact_email,followup_stage,status,payment_link
+INV-2026-001,Rajesh Sharma,Sharma Electronics Pvt Ltd,45000,2026-04-25,5,accounts@sharmaelectronics.in,Stage 1,Pending,https://pay.finflow.ai/INV-2026-001
+INV-2026-002,Priya Verma,Verma Textiles LLP,78000,2026-04-18,12,billing@vermatextiles.in,Stage 2,Pending,https://pay.finflow.ai/INV-2026-002
+INV-2026-003,Amit Kapoor,Kapoor Infrastructure Ltd,125000,2026-04-10,18,finance@kapoorinfra.in,Stage 3,Overdue,https://pay.finflow.ai/INV-2026-003
+INV-2026-004,Neha Gupta,Gupta Medical Agencies,32000,2026-04-02,26,accounts@guptamedical.in,Stage 4,Critical,https://pay.finflow.ai/INV-2026-004
+INV-2026-005,Rohit Yadav,Yadav Logistics Pvt Ltd,91000,2026-03-25,35,finance@yadavlogistics.in,Legal Escalation,Escalated,https://pay.finflow.ai/INV-2026-005
+INV-2026-006,Anjali Singh,Singh Foods Corporation,58000,2026-04-28,3,payments@singhfoods.in,Stage 1,Pending,https://pay.finflow.ai/INV-2026-006
+INV-2026-007,Vikram Malhotra,Malhotra Trading Co,67000,2026-04-16,14,accounts@malhotratrading.in,Stage 2,Pending,https://pay.finflow.ai/INV-2026-007
+INV-2026-008,Sneha Iyer,Iyer Technologies Pvt Ltd,154000,2026-04-08,20,billing@iyertech.in,Stage 3,Overdue,https://pay.finflow.ai/INV-2026-008
+INV-2026-009,Karan Mehta,Mehta Steel Industries,210000,2026-03-30,29,finance@mehtasteel.in,Stage 4,Critical,https://pay.finflow.ai/INV-2026-009
+INV-2026-010,Pooja Nair,Nair Healthcare Solutions,48000,2026-05-01,1,accounts@nairhealthcare.in,Stage 1,Pending,https://pay.finflow.ai/INV-2026-010
+INV-2026-011,Arjun Reddy,Reddy Constructions Ltd,185000,2026-03-20,40,finance@reddyconstructions.in,Legal Escalation,Escalated,https://pay.finflow.ai/INV-2026-011
+INV-2026-012,Kavita Joshi,Joshi Retail Mart,29000,2026-04-22,8,billing@joshimart.in,Stage 2,Pending,https://pay.finflow.ai/INV-2026-012
+INV-2026-013,Sandeep Chauhan,Chauhan Automobiles,99000,2026-04-12,16,accounts@chauhanauto.in,Stage 3,Overdue,https://pay.finflow.ai/INV-2026-013
+INV-2026-014,Meera Pillai,Pillai Export House,142000,2026-03-28,31,exports@pillaihouse.in,Legal Escalation,Escalated,https://pay.finflow.ai/INV-2026-014
+INV-2026-015,Harsh Agarwal,Agarwal Cement Suppliers,76000,2026-04-05,23,finance@agarwalcement.in,Stage 4,Critical,https://pay.finflow.ai/INV-2026-015

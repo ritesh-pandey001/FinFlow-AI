@@ -194,23 +194,139 @@ The `sample-output/` directory contains submission artifacts packaged from the f
 
 The visuals are SVG-based submission assets so the bundle remains lightweight and easy to review in the workspace.
 
-## Screenshots
+<div align="center">
 
-Add the final browser captures here for submission review:
+# ✨ FinFlow AI — Platform Showcase
 
-- Dashboard
-- Upload workspace
-- Email generation vault
-- Analytics
-- Audit trail
-- Security page
+### Intelligent Finance Workflow Automation Platform
 
-  <img width="1694" height="981" alt="Screenshot 2026-05-10 at 7 42 42 PM" src="https://github.com/user-attachments/assets/23544f52-e694-487b-b316-23c592f6916c" />
-  <img width="1710" height="984" alt="Screenshot 2026-05-10 at 7 43 06 PM" src="https://github.com/user-attachments/assets/fd8e7ef1-d3a5-41d0-b195-afc10cb14866" />
-  <img width="1710" height="986" alt="Screenshot 2026-05-10 at 7 43 33 PM" src="https://github.com/user-attachments/assets/fdfe9b09-386e-41df-9d9b-1b703d4e914b" />
-  <img width="1710" height="988" alt="Screenshot 2026-05-10 at 7 43 48 PM" src="https://github.com/user-attachments/assets/fd25a7d5-efaf-491a-952b-294f230c1e38" />
-  <img width="1710" height="981" alt="Screenshot 2026-05-10 at 7 43 58 PM" src="https://github.com/user-attachments/assets/21c6d066-cf0d-4182-a957-64342b8357e3" />
-  
+AI-powered payment recovery, escalation management, analytics intelligence, and enterprise-grade audit visibility.
+
+<br/>
+
+<img src="https://img.shields.io/badge/OpenRouter-AI-blue?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/TailwindCSS-UI-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+
+</div>
+
+---
+
+# 📊 Executive Dashboard
+
+A centralized AI-powered finance command center delivering:
+
+✔ Real-time invoice analytics
+✔ Escalation monitoring
+✔ Payment recovery intelligence
+✔ Operational workflow visibility
+✔ High-risk account tracking
+
+<br/>
+
+<div align="center">
+  <img width="95%" alt="Executive Dashboard" src="https://github.com/user-attachments/assets/23544f52-e694-487b-b316-23c592f6916c" />
+</div>
+
+---
+
+# 📂 Invoice Upload Workspace
+
+A modern invoice ingestion pipeline supporting:
+
+✔ CSV-based finance onboarding
+✔ Dynamic invoice validation
+✔ Automated workflow initialization
+✔ Real-time processing visibility
+✔ Smart finance data handling
+
+<br/>
+
+<div align="center">
+  <img width="95%" alt="Invoice Upload Workspace" src="https://github.com/user-attachments/assets/fd8e7ef1-d3a5-41d0-b195-afc10cb14866" />
+</div>
+
+---
+
+# 🤖 AI Email Generation Engine
+
+An intelligent communication automation system powered by OpenRouter + Gemini AI.
+
+### Features:
+
+✔ Personalized payment reminders
+✔ Dynamic tone escalation
+✔ Professional finance communication
+✔ Legal escalation handling
+✔ AI-powered workflow automation
+
+<br/>
+
+<div align="center">
+  <img width="95%" alt="AI Email Generation Engine" src="https://github.com/user-attachments/assets/fdfe9b09-386e-41df-9d9b-1b703d4e914b" />
+</div>
+
+---
+
+# 📈 Analytics & Financial Intelligence
+
+Interactive analytics dashboards providing:
+
+✔ Overdue distribution insights
+✔ Escalation stage analysis
+✔ Pending exposure visualization
+✔ Payment recovery intelligence
+✔ Operational finance metrics
+
+<br/>
+
+<div align="center">
+  <img width="95%" alt="Analytics Dashboard" src="https://github.com/user-attachments/assets/fd25a7d5-efaf-491a-952b-294f230c1e38" />
+</div>
+
+---
+
+# 🔒 Security & Audit Compliance
+
+Enterprise-inspired compliance architecture featuring:
+
+✔ Secure dry-run processing
+✔ Audit trail logging
+✔ Escalation visibility
+✔ AI governance tracking
+✔ Local persistence security
+
+<br/>
+
+<div align="center">
+  <img width="95%" alt="Security & Audit Compliance" src="https://github.com/user-attachments/assets/21c6d066-cf0d-4182-a957-64342b8357e3" />
+</div>
+
+---
+
+# 🚀 Built for Modern Finance Operations
+
+FinFlow AI combines:
+
+* Intelligent AI automation
+* Enterprise SaaS dashboard architecture
+* Escalation-aware communication workflows
+* Operational finance analytics
+* Secure audit visibility
+* Modern responsive UI/UX
+* AI-powered workflow orchestration
+
+into a unified next-generation finance automation platform.
+
+---
+
+<div align="center">
+
+### 💡 AI-Powered • Enterprise-Inspired • Finance Automation SaaS
+
+</div>
+
 
 ## Setup
 

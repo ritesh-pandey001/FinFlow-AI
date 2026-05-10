@@ -205,6 +205,13 @@ Add the final browser captures here for submission review:
 - Audit trail
 - Security page
 
+  <img width="1694" height="981" alt="Screenshot 2026-05-10 at 7 42 42 PM" src="https://github.com/user-attachments/assets/23544f52-e694-487b-b316-23c592f6916c" />
+  <img width="1710" height="984" alt="Screenshot 2026-05-10 at 7 43 06 PM" src="https://github.com/user-attachments/assets/fd8e7ef1-d3a5-41d0-b195-afc10cb14866" />
+  <img width="1710" height="986" alt="Screenshot 2026-05-10 at 7 43 33 PM" src="https://github.com/user-attachments/assets/fdfe9b09-386e-41df-9d9b-1b703d4e914b" />
+  <img width="1710" height="988" alt="Screenshot 2026-05-10 at 7 43 48 PM" src="https://github.com/user-attachments/assets/fd25a7d5-efaf-491a-952b-294f230c1e38" />
+  <img width="1710" height="981" alt="Screenshot 2026-05-10 at 7 43 58 PM" src="https://github.com/user-attachments/assets/21c6d066-cf0d-4182-a957-64342b8357e3" />
+  
+
 ## Setup
 
 ### Requirements
